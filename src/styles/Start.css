@@ -3,6 +3,14 @@
     display: grid;
     place-items: center;
     height: 86vh;
-    width: 100%;
-    
+    width: 100%;    
 }
+
+.container-title h1{
+    font-size: 42px;
+
+}
+.container-button{
+    margin-top: -10vh;
+}
+
