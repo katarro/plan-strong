@@ -1,0 +1,25 @@
+.container-navbar-mobile{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: -10vh;
+    margin-bottom: 10vh;
+    padding-right: 5vh;
+    height: 7vh;
+}
+.container-info-mobile{
+    background-color: #f7f7f7;
+
+}
+.amburger{
+    margin-top: -1vh;
+    width: 60px;
+    height: 60px;
+}
+
+@media (min-width: 740px){
+    .container-navbar-mobile{
+        visibility: hidden;
+        display: none;
+    }
+}

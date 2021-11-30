@@ -1,0 +1,19 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    --gren-strong: #57ce65;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+li{
+    list-style: none;
+}
+.container-info{
+    margin-top: 20px;
+    font-size: x-large;
+}

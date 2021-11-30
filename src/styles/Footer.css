@@ -1,0 +1,12 @@
+.container-footer{
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    background-color: black;
+}
+@media (max-width: 720px){
+    .container-footer{
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+}
