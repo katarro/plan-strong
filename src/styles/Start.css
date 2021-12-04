@@ -14,3 +14,19 @@
   margin-top: -10vh;
   width: 200px !important;
 }
+.link{
+  background-color: rgb(243, 97, 0);
+  font-size: large;
+  width: 100%;
+  height: 60px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  color: white;
+  
+}
+.link:hover{
+  transform: scale(1.1);
+  color: white;
+
+}

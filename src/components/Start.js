@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Start.css";
+import { Link } from "react-router-dom";
+
 export default function title() {
   return (
     <div className="container">
@@ -8,7 +10,9 @@ export default function title() {
       </div>
 
       <div className="container-button">
-        <button>Crear mi Plan</button>
+        <Link to="/login" type="button" className="link">
+          Ingresar
+        </Link>
       </div>
     </div>
   );

@@ -33,6 +33,7 @@ a {
 }
 a:hover{
   color:rgb(243, 97, 0);
+  text-decoration: line-through;
 }
 .navbar-right ul li {
   list-style: none;
