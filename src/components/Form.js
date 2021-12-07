@@ -4,8 +4,8 @@ import { useLocalStorage } from "./useUser/useLocalStorage";
 
 export function Form() {
   const [text, setText] = useLocalStorage("user", null);
-  const [text2, setText2] = useLocalStorage("user", null);
-  const [text3, setText3] = useLocalStorage("user", null);
+  const [text2, setText2] = useLocalStorage("user2", null);
+  const [text3, setText3] = useLocalStorage("user3", null);
   
   return (
     <div className="Login">

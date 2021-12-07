@@ -1,0 +1,24 @@
+#oculto1,
+#oculto2{
+    display: none;
+}
+#dia1,
+#dia2,
+#dia3,
+#dia4{
+    display: none;
+}
+#boton1,
+#botonA,
+#botonC,
+#botonE,
+#botonG{
+    display: block;
+}
+#botonB,
+#botonD,
+#botonF,
+#botonH{
+    display: none;
+}
+

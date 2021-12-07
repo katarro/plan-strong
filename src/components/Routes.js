@@ -6,7 +6,7 @@ import { SectionVideos } from "./SectionVideos";
 import { Footer } from "./Footer";
 import { Login } from "./Login";
 import { Form } from "./Form";
-import { Routine } from "./Routine";
+import { IndexRoutine } from "./Rutine5x5/IndexRoutine";
 export default function Routes() {
   return (
     <Router>
@@ -25,7 +25,7 @@ export default function Routes() {
         </Route>
 
         <Route path="/routine" exact>
-          <Routine />
+          <IndexRoutine />
         </Route>
       </Switch>
     </Router>
