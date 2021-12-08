@@ -1,4 +1,5 @@
 El siguiente paso es:
 
-1.- Arreglar que se vean las tablas al momento de hacer click en el Boton "boton1" del archivo "Week1.js".
+1.- Cambiar colores a los botones de la Rutine.
 2.- Hacer los calculos para la rutina.
+3.- Ajustar el margen de los botones

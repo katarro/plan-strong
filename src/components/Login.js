@@ -16,14 +16,7 @@ export const Login = () => {
           </Link>
         </div>
       ) : (
-        <>
-          <IndexRoutine />
-          <div className="container-button">
-            <Link className="link" to="/form">
-              Cambiar Rm
-            </Link>
-          </div>
-        </>
+        <IndexRoutine />
       )}
 
       {/* Si está vacio mostrar FROMUALRIO sino mostrar rutina junto con boton de cambiar RM */}

@@ -1,0 +1,6 @@
+.container-button-changeRm{
+    display: grid;
+    place-items: center;
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}

@@ -1,5 +1,6 @@
 .container-footer{
     display: grid;
+    width: 100%;
     place-items: center;
     height: 20vh;
     background-color: black;
