@@ -4,3 +4,12 @@
     margin-top: 10vh;
     padding-bottom: 10vh;
 }
+.link-button-change{
+    display: grid;
+    place-items: center;
+    background-color: rgb(243, 97, 0);
+    width: 60%;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+}

@@ -4,7 +4,7 @@ import "../../styles/ButtonChangeRm.css";
 export function ButtonChangeRm() {
   return (
     <div className="container-button-changeRm">
-      <Link className="link" to="/form">
+      <Link className="link-button-change" to="/form">
         Cambiar Rm
       </Link>
     </div>

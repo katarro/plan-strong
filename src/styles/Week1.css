@@ -1,24 +1,38 @@
-/* #oculto1,
-#oculto2{
-    display: none;
+.link-day {
+  /*#E07F3F*/
+  background-color: #ed9242;
+  font-size: large;
+  width: 60%;
+  height: 60px;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  color: white;
 }
-#dia1,
-#dia2,
-#dia3,
-#dia4{
-    display: none;
+.link-day:hover {
+  transform: scale(1.1);
+  color: white;
 }
-#boton1,
-#botonA,
-#botonC,
-#botonE,
-#botonG{
-    display: block;
+.title-week {
+  display: grid;
+  place-items: center;
+  margin: 5vh 0 5vh 0;
 }
-#botonB,
-#botonD,
-#botonF,
-#botonH{
-    display: none;
-} */
-
+.dia1 {
+  background-color: rgb(243, 97, 0);
+  border-radius: 15px;
+  padding: 5px;
+  color: black;
+  height: 60vh;
+  display: grid;
+  place-items: center;
+}
+.oculto2 {
+  display: grid;
+  place-items: center;
+}
+.table{
+  background-color: #ed9242;
+}
+#allTable{
+}

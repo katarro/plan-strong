@@ -8,15 +8,13 @@ import { Week4 } from "./Week4";
 import "../../styles/Routine.css";
 
 export function IndexRoutine() {
-  const { benchPress, deadLift, squat, boton1, allTable, onClickBoton1 } =
+  const { benchPress, deadLift, squat  } =
     useLogicalTables();
 
   return (
     <div className="routine">
-      <button className="link" onClick={onClickBoton1}>
-        {boton1 ? "Ocultar" : "Mostrar Rutina"}
-      </button>
-      {allTable ? (
+      
+     
         <div className="weeks">
           <div className="week1">
             <Week1 benchPress={benchPress} deadLift={deadLift} squat={squat} />
@@ -46,7 +44,7 @@ export function IndexRoutine() {
             />
           </div>
         </div>
-      ) : null}
+    
       <ButtonChangeRm />
     </div>
   );

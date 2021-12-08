@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Week1.css";
 import { useLogicalTables } from "./useLogicalTables/useLogicalTables";
-
 export function Week1() {
   const {
     benchPress,
@@ -22,25 +21,60 @@ export function Week1() {
 
   return (
     <div className="tablas">
-      <button
-        id="boton1"
-        type="button"
-        className="link"
-        onClick={onClickBoton1}
-      >
-        {boton1 ? "Ocultar" : "Semana 1"}
-      </button>
+      <div className="container-all-tables">
+        <button className="link-all-table" onClick={onClickBoton1}>
+          {boton1 ? "Ocultar" : "Semana 1"}
+        </button>
+      </div>
 
       {allTable ? (
         <>
           <div id="allTable">
-            <div id="oculto2">
-              <h2>Semana 1</h2>
-              {day1 ? (
-                <div id="dia1">
+            <div className="oculto2">
+              <div className="title-week">
+                <u>
+                  <h1>Semana 1</h1>
+                </u>
+              </div>
+
+              <div className="container-table">
+                <table className="table table-bordered table-dark">
+                  <thead>
+                    <tr>
+                      <th scope="col">Ejercicio</th>
+                      <th scope="col">Series</th>
+                      <th scope="col">Repeticiones</th>
+                      <th scope="col">Peso</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Sentadilla</th>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>100 kg</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">S.Frontal</th>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>100 kg</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Hip Thrust</th>
+                      <td>5</td>
+                      <td>5</td>
+                      <td>100 kg</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              {/* {day1 ? (
+                <div className="dia1">
                   <h3>Dia 1</h3>
                   <div className="row">
-                    <div className="col-12">
+                    <div className="col-8">
                       <div className="class-timetable">
                         <table>
                           <thead>
@@ -53,110 +87,55 @@ export function Week1() {
                           </thead>
                           <tbody>
                             <tr>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="workout"
-                              >
+                              <td>
                                 <h5>Sentadilla</h5>
+                                <hr />
                               </td>
-                              <td
-                                className="hover-bg ts-meta"
-                                data-tsmeta="fitness"
-                              >
-                                <h5>3</h5>
-                                <span></span>
-                              </td>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="workout"
-                              >
+                              <td>
                                 <h5>5</h5>
-                                <br />
-                                <hr />
-                                <h5>5</h5>
-                                <br />
-                                <hr />
-                                <h5>5+</h5>
                                 <span></span>
                               </td>
-                              <td
-                                className="hover-bg ts-meta"
-                                data-tsmeta="fitness"
-                              >
-                                <h5>
-                                  {/* <?php echo 0.75*$sentadilla; ?> */}
-                                  Kg
-                                </h5>
-                                <br />
-                                <hr />
-                                <h5>
-                                  {/* <?php echo 0.80*$sentadilla; ?> */}
-                                  Kg
-                                </h5>
-                                <br />
-                                <hr />
-                                <h5>
-                                  {/* <?php echo 0.85*$sentadilla; ?> */}
-                                  Kg
-                                </h5>
-                                <span></span>
+                              <td>
+                                <h5>5</h5>
+                              </td>
+                              <td>
+                                <h5>{0.75 * squat}</h5>
                               </td>
                             </tr>
                             <tr>
                               <td className="hover-bg ts-meta">
-                                <h5>Sentadilla</h5>
-                                <span>Frontal</span>
+                                <h5>Sentadilla Frontal</h5>
+                                <hr />
                               </td>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="fitness"
-                              >
+                              <td>
                                 <h5>4</h5>
                                 <span></span>
                               </td>
-                              <td
-                                className="hover-bg ts-meta"
-                                data-tsmeta="workout"
-                              >
+                              <td>
                                 <h5>10</h5>
                                 <span></span>
                               </td>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="motivation"
-                              >
-                                <h5>
-                                  {/* <?php echo 0.42*$sentadilla; ?> */}
-                                  Kg
-                                </h5>
+                              <td>
+                                <h5>{0.42 * squat}</h5>
                                 <span></span>
                               </td>
                             </tr>
                             <tr>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="fitness"
-                              >
+                              <td>
                                 <h5>Hip Thrust</h5>
                                 <span></span>
                               </td>
-                              <td
-                                className="hover-bg ts-meta"
-                                data-tsmeta="motivation"
-                              >
+                              <td>
                                 <h5>4</h5>
                                 <span></span>
                               </td>
-                              <td
-                                className="dark-bg hover-bg ts-meta"
-                                data-tsmeta="workout"
-                              >
+                              <td>
                                 <h5>10</h5>
                                 <span></span>
                               </td>
-                              <td className="hover-bg ts-meta">
+                              <td>
                                 <h5>
-                                  {/* <?php echo 0.62*$sentadilla; ?> */}
+                                  {0.42 * squat}
                                   Kg
                                 </h5>
                               </td>
@@ -184,7 +163,7 @@ export function Week1() {
                                 data-tsmeta="workout"
                               >
                                 <h5>
-                                  {/* <?php echo 0.15*$sentadilla; ?> */}
+                                  {0.15*squat}
                                   Kg
                                 </h5>
                                 <span></span>
@@ -196,12 +175,11 @@ export function Week1() {
                     </div>
                   </div>
                 </div>
-              ) : null}
+              ) : null} */}
 
-              <button className="link" onClick={() => setDay1(!day1)}>
+              <button className="link-day" onClick={() => setDay1(!day1)}>
                 Dia 1
               </button>
-              <br />
               <br />
 
               {day2 ? (
@@ -364,10 +342,9 @@ export function Week1() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay2(!day2)}>
+              <button className="link-day" onClick={() => setDay2(!day2)}>
                 Dia 2
               </button>
-              <br />
               <br />
 
               {day3 ? (
@@ -533,10 +510,9 @@ export function Week1() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay3(!day3)}>
+              <button className="link-day" onClick={() => setDay3(!day3)}>
                 Dia 3
               </button>
-              <br />
               <br />
 
               {day4 ? (
@@ -695,7 +671,7 @@ export function Week1() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay4(!day4)}>
+              <button className="link-day" onClick={() => setDay4(!day4)}>
                 Dia 4
               </button>
               <br />

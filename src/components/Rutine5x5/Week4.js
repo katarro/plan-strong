@@ -19,20 +19,21 @@ export function Week4() {
   } = useLogicalTables();
   return (
     <div className="tablas">
-      <button
-        id="boton1"
-        type="button"
-        className="link"
-        onClick={onClickBoton1}
-      >
-        {boton1 ? "Ocultar" : "Semana 4"}
-      </button>
+      <div className="container-all-tables">
+        <button className="link-all-table" onClick={onClickBoton1}>
+          {boton1 ? "Ocultar" : "Semana 4"}
+        </button>
+      </div>
 
       {allTable ? (
         <>
           <div id="allTable">
-            <div id="oculto2">
-              <h2>Semana 4</h2>
+            <div className="oculto2">
+              <div className="title-week">
+                <u>
+                  <h1>Semana 4</h1>
+                </u>
+              </div>
               {day1 ? (
                 <div id="dia1">
                   <h3>Dia 1</h3>
@@ -195,7 +196,7 @@ export function Week4() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay1(!day1)}>
+              <button className="link-day" onClick={() => setDay1(!day1)}>
                 Dia 1
               </button>
               <br />
@@ -361,7 +362,7 @@ export function Week4() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay2(!day2)}>
+              <button className="link-day" onClick={() => setDay2(!day2)}>
                 Dia 2
               </button>
               <br />
@@ -530,7 +531,7 @@ export function Week4() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay3(!day3)}>
+              <button className="link-day" onClick={() => setDay3(!day3)}>
                 Dia 3
               </button>
               <br />
@@ -692,7 +693,7 @@ export function Week4() {
                 </div>
               ) : null}
 
-              <button className="link" onClick={() => setDay4(!day4)}>
+              <button className="link-day" onClick={() => setDay4(!day4)}>
                 Dia 4
               </button>
               <br />
