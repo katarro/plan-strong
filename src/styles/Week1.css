@@ -18,15 +18,7 @@
   place-items: center;
   margin: 5vh 0 5vh 0;
 }
-.dia1 {
-  background-color: rgb(243, 97, 0);
-  border-radius: 15px;
-  padding: 5px;
-  color: black;
-  height: 60vh;
-  display: grid;
-  place-items: center;
-}
+
 .oculto2 {
   display: grid;
   place-items: center;
@@ -35,4 +27,8 @@
   background-color: #ed9242;
 }
 #allTable{
+}
+.serie{
+  text-align: center;
+  
 }
