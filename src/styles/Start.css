@@ -4,17 +4,21 @@
   place-items: center;
   height: 86vh;
   width: 100%;
+  margin-top: -5vh;
 }
-
-.container-title h1 {
+.container-start{
+  display: grid;
+  place-items: center;
+}
+.container-start h1 {
   font-size: 42px;
 }
-.container-button {
+.container-button-start {
   display: flex;
   margin-top: -10vh;
   width: 200px !important;
 }
-.link{
+.link {
   background-color: rgb(243, 97, 0);
   font-size: large;
   width: 100%;
@@ -23,10 +27,26 @@
   display: grid;
   place-items: center;
   color: white;
-  
 }
-.link:hover{
+.link:hover {
   transform: scale(1.1);
   color: white;
+}
+@media (max-width: 720px) {
+  .container {
+    height: 84vh;
+    margin-top: -5vh;
+  }
+  .container-button-start{
+    margin-top: 15vh;
 
+  }
+  .container-items-start{
+    height: 40vh;
+    display: grid;
+    place-items: center; 
+    margin-top: -150px !important;   
+  }
+  
+  
 }

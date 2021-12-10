@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../styles/Form.css";
 import { useLocalStorage } from "./useUser/useLocalStorage";
+import { Footer } from "./Footer";
 
 export function Form() {
   const [text, setText] = useLocalStorage("user", null);
@@ -9,62 +11,65 @@ export function Form() {
   const [text4, setText4] = useLocalStorage("user4", null);
   const [text5, setText5] = useLocalStorage("user5", null);
 
-  
   return (
     <div className="Login">
       <div className="container-form">
-        <label>Banca</label>
-        <input
-          type="number"
-          placeholder="100 kg"
-          value={text}
-          onChange={setText}
-        />
-      </div>
-      <div className="container-form">
-        <label>Peso muerto</label>
-        <input
-          type="number"
-          placeholder="100 kg"
-          value={text2}
-          onChange={setText2}
-        />
-      </div>
-      <div className="container-form">
-        <label>Sentadilla</label>
-        <input
-          type="number"
-          placeholder="100 kg"
-          value={text3}
-          onChange={setText3}
-        />
-      </div>
+        <div className="container-form">
+          <label>Banca</label>
+          <input
+            type="number"
+            placeholder="100 kg"
+            value={text}
+            onChange={setText}
+          />
+        </div>
+        <div className="container-form">
+          <label>Peso muerto</label>
+          <input
+            type="number"
+            placeholder="100 kg"
+            value={text2}
+            onChange={setText2}
+          />
+        </div>
+        <div className="container-form">
+          <label>Sentadilla</label>
+          <input
+            type="number"
+            placeholder="100 kg"
+            value={text3}
+            onChange={setText3}
+          />
+        </div>
 
-      <div className="container-form">
-        <label>Remo con Barra</label>
-        <input
-          type="number"
-          placeholder="100 kg"
-          value={text4}
-          onChange={setText4}
-        />
-      </div>
+        <div className="container-form">
+          <label>Remo con Barra</label>
+          <input
+            type="number"
+            placeholder="100 kg"
+            value={text4}
+            onChange={setText4}
+          />
+        </div>
 
-      <div className="container-form">
-        <label>Press Militar</label>
-        <input
-          type="number"
-          placeholder="100 kg"
-          value={text5}
-          onChange={setText5}
-        />
-      </div>
+        <div className="container-form">
+          <label>Press Militar</label>
+          <input
+            type="number"
+            placeholder="100 kg"
+            value={text5}
+            onChange={setText5}
+          />
+        </div>
 
-      <div className="container-button">
-        <Link className="link" to="/routine">
-          Crear
-        </Link>
+        <div className="container-form" id="container-button-form">
+          <Link className="link" to="/routine">
+            Crear
+          </Link>
+        </div>
+
       </div>
+      <Footer/>
     </div>
   );
 }
