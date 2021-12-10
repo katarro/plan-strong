@@ -12,11 +12,9 @@ export function Week1() {
     day1,
     day2,
     day3,
-    day4,
     setDay1,
     setDay2,
     setDay3,
-    setDay4,
   } = useLogicalTables();
 
   return (

@@ -5,6 +5,10 @@ import { Week1 } from "./Week1";
 import { Week2 } from "./Week2";
 import { Week3 } from "./Week3";
 import { Week4 } from "./Week4";
+import { Week5 } from "./Week5";
+import { Week6 } from "./Week6";
+import { Week7 } from "./Week7";
+import { Week8 } from "./Week8";
 import "../../styles/Routine.css";
 
 export function IndexRoutine() {
@@ -37,6 +41,40 @@ export function IndexRoutine() {
         </div>
         <div className="week">
           <Week4
+            className="week"
+            benchPress={benchPress}
+            deadLift={deadLift}
+            squat={squat}
+          />
+        </div>
+        <br />
+        <br />
+        <div className="week">
+          <Week5
+            className="week"
+            benchPress={benchPress}
+            deadLift={deadLift}
+            squat={squat}
+          />
+        </div>
+        <div className="week">
+          <Week6
+            className="week"
+            benchPress={benchPress}
+            deadLift={deadLift}
+            squat={squat}
+          />
+        </div>
+        <div className="week">
+          <Week7
+            className="week"
+            benchPress={benchPress}
+            deadLift={deadLift}
+            squat={squat}
+          />
+        </div>
+        <div className="week">
+          <Week8
             className="week"
             benchPress={benchPress}
             deadLift={deadLift}

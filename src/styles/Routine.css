@@ -15,6 +15,9 @@
   border-radius: 15px;
   color: white;
 }
+h1{
+  color: white;
+}
 .weeks {
   padding: 3vh;
   margin-top: 10vh;

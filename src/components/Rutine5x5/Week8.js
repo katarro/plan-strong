@@ -1,6 +1,6 @@
 import React from "react";
 import { useLogicalTables } from "./useLogicalTables/useLogicalTables";
-export function Week4() {
+export function Week8() {
   const {
     benchPress,
     deadLift,
@@ -19,7 +19,7 @@ export function Week4() {
     <div className="tablas">
       <div className="container-all-tables">
         <button className="link-all-table" onClick={onClickBoton1}>
-          {boton1 ? "Ocultar" : "Semana 4"}
+          {boton1 ? "Ocultar" : "Semana 8"}
         </button>
       </div>
 
@@ -29,7 +29,7 @@ export function Week4() {
             <div className="oculto2">
               <div className="title-week">
                 <u>
-                  <h1>Semana 4</h1>
+                  <h1>Semana 8</h1>
                 </u>
               </div>
 
@@ -53,19 +53,19 @@ export function Week4() {
                           <th scope="row">Sentadilla</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * squat} kg</td>
+                          <td>{0.875 * squat} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Press Banca</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * benchPress} kg</td>
+                          <td>{0.875 * benchPress} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Peso Muerto</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * deadLift} kg</td>
+                          <td>{0.875 * deadLift} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Curl Biceps</th>
@@ -110,19 +110,19 @@ export function Week4() {
                           <th scope="row">Sentadilla</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * squat} kg</td>
+                          <td>{0.875 * squat} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Press Militar</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * benchPress} kg</td>
+                          <td>{0.875 * benchPress} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Peso Muerto</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * deadLift} kg</td>
+                          <td>{0.875 * deadLift} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Face pul</th>
@@ -167,19 +167,19 @@ export function Week4() {
                           <th scope="row">Sentadilla</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * squat} kg</td>
+                          <td>{0.875 * squat} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Press Banca</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * benchPress} kg</td>
+                          <td>{0.875 * benchPress} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Remo con Barra</th>
                           <td className="serie">5</td>
                           <td className="serie">5</td>
-                          <td>{0.775 * deadLift} kg</td>
+                          <td>{0.875 * deadLift} kg</td>
                         </tr>
                         <tr>
                           <th scope="row">Curl Biceps</th>
@@ -211,7 +211,6 @@ export function Week4() {
       ) : (
         <></>
       )}
-
     </div>
   );
 }

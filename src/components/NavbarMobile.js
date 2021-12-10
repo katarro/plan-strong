@@ -17,15 +17,18 @@ function NavbarMobile() {
         className="amburger"
         onClick={handleShow}
       />
-        <Offcanvas show={show} onHide={handleClose} className="container-info-mobile">
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Plan Strong</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-          <InfoMobile/>
-
-          </Offcanvas.Body>
-        </Offcanvas>
+      <Offcanvas
+        show={show}
+        onHide={handleClose}
+        className="container-info-mobile"
+      >
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Plan Strong</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <InfoMobile />
+        </Offcanvas.Body>
+      </Offcanvas>
     </div>
   );
 }

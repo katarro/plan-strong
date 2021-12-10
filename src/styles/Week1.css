@@ -18,17 +18,20 @@
   place-items: center;
   margin: 5vh 0 5vh 0;
 }
+h3{
+  color: white;
+}
 
 .oculto2 {
   display: grid;
   place-items: center;
 }
-.table{
+.table {
   background-color: #ed9242;
 }
-#allTable{
+.link-all-table:hover{
+  transform: scale(1.1);
 }
-.serie{
+.serie {
   text-align: center;
-  
 }

@@ -22,7 +22,6 @@ export default function navbar() {
           </ul>
         </div>
       </div>
-      
     </React.Fragment>
   );
 }

@@ -13,7 +13,13 @@
 li{
     list-style: none;
 }
+ul{
+    margin-left: -5vh;
+}
 .container-info{
     margin-top: 20px;
     font-size: x-large;
+}
+.link-mobile{
+    color: #000000;
 }

@@ -26,7 +26,6 @@ export default function Routes() {
 
         <Route path="/routine" exact>
           <IndexRoutine />
-          <Footer />
         </Route>
       </Switch>
     </Router>

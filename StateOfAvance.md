@@ -1,5 +1,5 @@
-El siguiente paso es:
+Version 1.0: 
 
-1.- Agregar el rm de press militar y remo con barra
-2.- Hacer los calculos para la rutina.
-3.-Aplicar rutina 5x5
+.Contiene el método 5x5 para principiantes.
+
+.Crear método #1 531

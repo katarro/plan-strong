@@ -6,6 +6,9 @@ export function Form() {
   const [text, setText] = useLocalStorage("user", null);
   const [text2, setText2] = useLocalStorage("user2", null);
   const [text3, setText3] = useLocalStorage("user3", null);
+  const [text4, setText4] = useLocalStorage("user4", null);
+  const [text5, setText5] = useLocalStorage("user5", null);
+
   
   return (
     <div className="Login">
@@ -34,6 +37,26 @@ export function Form() {
           placeholder="100 kg"
           value={text3}
           onChange={setText3}
+        />
+      </div>
+
+      <div className="container-form">
+        <label>Remo con Barra</label>
+        <input
+          type="number"
+          placeholder="100 kg"
+          value={text4}
+          onChange={setText4}
+        />
+      </div>
+
+      <div className="container-form">
+        <label>Press Militar</label>
+        <input
+          type="number"
+          placeholder="100 kg"
+          value={text5}
+          onChange={setText5}
         />
       </div>
 
