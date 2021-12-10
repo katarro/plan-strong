@@ -2,10 +2,17 @@
   color: white;
   display: grid;
   place-items: center;
-  height: 86vh;
+  height: 92vh;
   width: 100%;
   margin-top: -5vh;
 }
+.container-items-start{
+  height: 40vh;
+  display: grid;
+  place-items: center; 
+  margin-top: -150px !important;   
+}
+
 .container-start{
   display: grid;
   place-items: center;
@@ -15,7 +22,7 @@
 }
 .container-button-start {
   display: flex;
-  margin-top: -10vh;
+  margin-top: 20vh;
   width: 200px !important;
 }
 .link {
