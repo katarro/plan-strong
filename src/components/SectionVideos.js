@@ -2,7 +2,7 @@ import React from "react";
 // #151515
 import "../styles/SectionVideos.css";
 import Video_531 from "../media/videos/metodo_531.gif";
-import Video_pendlay from "../media/videos/metodo_531.gif";
+import Video_pendlay from "../media/videos/Pendlay5_5.gif";
 import Video_regPark from "../media/videos/Reg_Park_5_5.gif";
 import Video_ripptoe from "../media/videos/Rippetoe5_5.gif";
 
