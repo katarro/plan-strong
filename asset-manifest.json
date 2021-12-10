@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/plan-strong/static/css/main.a2d6d614.chunk.css",
+    "main.js": "/plan-strong/static/js/main.e68a2624.chunk.js",
+    "main.js.map": "/plan-strong/static/js/main.e68a2624.chunk.js.map",
+    "runtime-main.js": "/plan-strong/static/js/runtime-main.60fd48ff.js",
+    "runtime-main.js.map": "/plan-strong/static/js/runtime-main.60fd48ff.js.map",
+    "static/js/2.49ac1727.chunk.js": "/plan-strong/static/js/2.49ac1727.chunk.js",
+    "static/js/2.49ac1727.chunk.js.map": "/plan-strong/static/js/2.49ac1727.chunk.js.map",
+    "static/js/3.ff7fce7c.chunk.js": "/plan-strong/static/js/3.ff7fce7c.chunk.js",
+    "static/js/3.ff7fce7c.chunk.js.map": "/plan-strong/static/js/3.ff7fce7c.chunk.js.map",
+    "index.html": "/plan-strong/index.html",
+    "static/css/main.a2d6d614.chunk.css.map": "/plan-strong/static/css/main.a2d6d614.chunk.css.map",
+    "static/js/2.49ac1727.chunk.js.LICENSE.txt": "/plan-strong/static/js/2.49ac1727.chunk.js.LICENSE.txt",
+    "static/media/Pendlay5_5.0a1bf565.gif": "/plan-strong/static/media/Pendlay5_5.0a1bf565.gif",
+    "static/media/Reg_Park_5_5.14b57e4c.gif": "/plan-strong/static/media/Reg_Park_5_5.14b57e4c.gif",
+    "static/media/Rippetoe5_5.17c425c7.gif": "/plan-strong/static/media/Rippetoe5_5.17c425c7.gif",
+    "static/media/index.css": "/plan-strong/static/media/fondo_negro.a150f1eb.jpg",
+    "static/media/metodo_531.1faf3175.gif": "/plan-strong/static/media/metodo_531.1faf3175.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60fd48ff.js",
+    "static/js/2.49ac1727.chunk.js",
+    "static/css/main.a2d6d614.chunk.css",
+    "static/js/main.e68a2624.chunk.js"
+  ]
+}
