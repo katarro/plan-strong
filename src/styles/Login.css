@@ -7,6 +7,7 @@
   place-items: center;
   color: white;
   height: 86vh;
+  width: 100%;
 }
 .container-form {
   display: grid;
@@ -25,13 +26,13 @@ label {
   color: var(--very-light-pink);
 }
 /* Oculta flecha de input number*/
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
-@media(max-width:735px){
-  .Login{
+@media (max-width: 735px) {
+  .Login {
     height: 78vh;
   }
 }
